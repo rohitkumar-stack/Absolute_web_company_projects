@@ -1,0 +1,4 @@
+FTP Username: parasmanierp@absoluteweb.org
+FTP server: ftp.absoluteweb.org
+FTP & explicit FTPS port:  21
+Password : parasmanierp@2023

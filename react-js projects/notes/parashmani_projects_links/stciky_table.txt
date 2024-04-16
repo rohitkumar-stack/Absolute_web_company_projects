@@ -1,0 +1,802 @@
+  <div className="table-responsive"
+                                                            style={{ height: '500px', overflow: 'auto' }}>
+                                                            <Table className="mb-0">
+                                                                <thead className="sticky-header bg-light" 
+                                                                style={{ position: 'sticky', top: '0', backgroundColor: '#ffffff', zIndex: '100' }}>
+                                                                    <tr>
+                                                                        <th>Menu</th>
+                                                                        <th>SubMenu</th>
+                                                                        <th>SubMenu-Child</th>
+                                                                        <th>View</th>
+                                                                        <th>Add</th>
+                                                                        <th>Edit</th>
+                                                                        <th>Delete</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <th scope="row">Dashboard</th>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    {/* master */}
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td>Master</td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>Roles</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>Country</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>State</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>Designation</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>Department</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>HSN Code</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    {/* Items */}
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td>Items</td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>Item</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>Item Category</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td> Item Sub-Category</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>Item Make</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    {/* Ledger */}
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td>Ledger</td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>Ledger</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>Ledger Group</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    {/* shift */}
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td>Shift</td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    {/* Terms & Conditions */}
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td>Terms & Conditions</td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    {/* Unit */}
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td>Unit</td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>Unit</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>Unit Measure</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    {/* Warehouse */}
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td>Warehouse</td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    {/* Leave Management */}
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td>Leave Management</td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    {/* master */}
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td>Master</td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>Reference</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>Industrial Type</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>Ownership</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>Contact Person</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td></td>
+                                                                        <td>Customers</td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    {/* Marketing Lead */}
+                                                                    <tr>
+                                                                        <th scope="row"></th>
+                                                                        <td>Marketing Lead</td>
+                                                                        <td></td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div className="form-check mb-3">
+                                                                                <Input className="form-check-input"
+                                                                                    type="checkbox" value="" id="defaultCheck1" />
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                </tbody>
+                                                            </Table>
+                                                        </div>

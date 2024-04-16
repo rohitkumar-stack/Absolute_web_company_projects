@@ -1,0 +1,9 @@
+ **Fixed the issues of pages
+
+(1) Work on Theme setting Page:- i fixed the size design issues.
+(2) work on Theme setting Api:- Store the Locasorage in all data.
+(3) Work on Image-Logo with Favcon-icon:- help of the localstorage get image-logo with favcon-icon then, 
+    i show on th dashboard dynamically.
+(4) Wokrk on Sidebar Menu:- i fixed the issues when i click menu of sidebar then refresh image-icons.
+(5) work on Sales pages :- i have add the sale-pages in updated code.
+(6) working on submenu of the child Menu Sidebar pages convert in Tabs pages 

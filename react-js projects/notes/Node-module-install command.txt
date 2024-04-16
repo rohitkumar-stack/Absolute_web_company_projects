@@ -1,0 +1,3 @@
+delete package-lock.json and node_modules if exists
+npm cache clean --force
+npm install or npm install --legacy-peer-deps

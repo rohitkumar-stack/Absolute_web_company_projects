@@ -1,0 +1,75 @@
+Common Master List ::=>
+
+**=> Masters (Common Master)
+
+*=> Roles 
+
+*=> Country
+
+*=> State
+
+*=> Designation
+
+*=> Department
+
+*=> HSN Code
+
+*=> Item
+
+      => Item
+
+      => Item Category
+
+      => Item Sub-Category
+
+      => Item Make
+
+*=> Ledger
+
+      => Ledger
+
+      => Ledger Group
+
+*=> Shift
+
+*=> Terms & Conditions
+
+*=> Unit
+
+      => Unit Measure
+
+*=> Warehouse
+
+
+ 
+
+**=> Leave Management
+
+*=> Masters
+
+   => Leave
+
+   => Leave Entitlement  
+
+*=> Leave Applications
+
+ 
+
+**=> Marketing Management
+
+*=> Masters
+
+   => Reference
+
+   => Industrial Type
+
+   => Ownership
+
+   => Contact Person
+
+   => Customers
+
+*=> Marketing Lead
+
+
+

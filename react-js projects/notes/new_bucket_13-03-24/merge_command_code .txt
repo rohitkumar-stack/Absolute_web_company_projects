@@ -1,0 +1,105 @@
+PS C:\react-projects\parashmani_projects\ParasmaniERP> git pull origin nishit
+ * branch            nishit     -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+        src/globals.js
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 5164b67..3da4c2c
+PS C:\react-projects\parashmani_projects\ParasmaniERP> git stash
+Saved working directory and index state WIP on rohitDev: 5164b67 checked box issue resolve
+PS C:\react-projects\parashmani_projects\ParasmaniERP> git stash
+No local changes to save
+PS C:\react-projects\parashmani_projects\ParasmaniERP> stash
+stash : The term 'stash' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the     
+name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ stash
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (stash:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\react-projects\parashmani_projects\ParasmaniERP> git stash pop
+PS C:\react-projects\parashmani_projects\ParasmaniERP> git stash 
+Saved working directory and index state WIP on rohitDev: 5164b67 checked box issue resolve
+PS C:\react-projects\parashmani_projects\ParasmaniERP> git checkout master
+Switched to branch 'master'
+Your branch is behind 'origin/master' by 3 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+Updating fcdb3eb..5bc8d0e
+ src/globals.js                                     |  10 +-
+ src/pages/AuthenticationInner/ForgetPassword.js    |   2 +-
+ src/pages/AuthenticationInner/recoverPassword.js   |   6 +-
+ .../Marketing lead master/editmarketinglead.js     | 429 +++++++++++----------
+ .../Marketing lead master/marketleadfomwizard.js   |   4 +
+ src/pages/Master/department/createdepartment.js    |   2 +-
+ src/pages/Master/department/editdepartment.js      |   5 +-
+ src/pages/Master/designation/adddesignation.js     |  60 ---
+ src/pages/Master/designation/editdesignation.js    |   6 +-
+ src/pages/Master/hsn_code/createhsncode.js         |   8 +-
+ src/pages/Master/hsn_code/edithsncode.js           |   8 +-
+ src/pages/Master/item/TabsItems.jsx                |   2 +-
+ src/pages/Master/item/createitem.js                |   4 +-
+ src/pages/Master/itemcategory/itemcategorylist.js  |   2 +-
+ yarn.lock                                          | 314 ++++++++++++++-
+ 16 files changed, 555 insertions(+), 309 deletions(-)
+PS C:\react-projects\parashmani_projects\ParasmaniERP> git checkout
+PS C:\react-projects\parashmani_projects\ParasmaniERP> git checkout -
+Switched to branch 'rohitDev'
+PS C:\react-projects\parashmani_projects\ParasmaniERP> git merge master
+Updating 5164b67..5bc8d0e
+Fast-forward
+ src/globals.js                                    | 10 ++--
+ src/pages/Authentication/ForgetPassword.js        |  2 +-
+ src/pages/AuthenticationInner/ForgetPassword.js   |  2 +-
+ src/pages/AuthenticationInner/recoverPassword.js  |  6 ++-
+ src/pages/Master/department/createdepartment.js   |  2 +-
+ src/pages/Master/department/editdepartment.js     |  5 +-
+ src/pages/Master/designation/adddesignation.js    | 60 -----------------------
+ src/pages/Master/designation/editdesignation.js   |  6 +--
+ src/pages/Master/hsn_code/createhsncode.js        |  8 +--
+ src/pages/Master/hsn_code/edithsncode.js          |  8 +--
+ src/pages/Master/item/TabsItems.jsx               |  2 +-
+ src/pages/Master/item/createitem.js               |  4 +-
+ src/pages/Master/itemcategory/itemcategorylist.js |  2 +-
+ 13 files changed, 28 insertions(+), 89 deletions(-)
+PS C:\react-projects\parashmani_projects\ParasmaniERP> git stash pop
+Auto-merging src/globals.js
+CONFLICT (content): Merge conflict in src/globals.js
+On branch rohitDev
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   src/pages/Master/Marketing lead master/editmarketinglead.js
+        modified:   src/pages/Master/Marketing lead master/marketinglead2.jsx
+        modified:   src/pages/Master/Marketing lead master/marketleadfomwizard.js
+        modified:   src/pages/Master/customermaster/CreateCustomerModal.jsx
+        modified:   src/pages/Master/customermaster/editcusotmer.js
+        modified:   src/pages/Master/department/createcompanytypedepartment.js
+        modified:   src/pages/Master/department/editcompanytypedepartment.js
+        modified:   src/pages/Master/department/getcompanytypedepartment.js
+        modified:   src/pages/Master/designation/createdesignationCompany.js
+        modified:   src/pages/Master/designation/editdesignationCompany.js
+        modified:   src/pages/Master/designation/getDesignationCompany.js
+        modified:   src/pages/Master/leadreferencemaster/LeadTabs.jsx
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add <file>..." to mark resolution)
+        both modified:   src/globals.js
+The stash entry is kept in case you need it again.
+PS C:\react-projects\parashmani_projects\ParasmaniERP> git push
+fatal: The current branch rohitDev has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin rohitDev
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\react-projects\parashmani_projects\ParasmaniERP> git push origin rohitDev
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Absolute-Web-1/ParasmaniERP.git
+   5164b67..5bc8d0e  rohitDev -> rohitDev
+PS C:\react-projects\parashmani_projects\ParasmaniERP> ^C
+PS C:\react-projects\parashmani_projects\ParasmaniERP> 
+
+

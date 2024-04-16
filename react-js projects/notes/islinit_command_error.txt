@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/70449712/create-react-app-error-in-plugin-react-was-conflicted-between-eslintrc-jso
+
+npm install --dev eslint-config-react-app 

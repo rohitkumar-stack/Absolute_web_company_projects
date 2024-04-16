@@ -1,0 +1,11 @@
+Admin detaills:-
+Emails:-fenil.s1991@gmail.com
+password:-admin
+
+detaills:-
+Emails:- juned.pathan@absoluteweb.in
+Passowrd:- 123456
+
+//Testing detaills
+Email:- abstest.yukta@gmail.com
+Password:- 12345678

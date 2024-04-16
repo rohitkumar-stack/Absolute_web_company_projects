@@ -1,0 +1,14 @@
+.card-shaddow-inner.card {
+    box-shadow: 2px 3px 6px rgb(156 156 156 / 64%);
+    padding: 0px 20px;
+    
+}
+.col-sm-12.col-lg-6.pl-0.col {
+    padding-left: 0px;
+}
+.col-sm-12.col-lg-6.pr-0.col {
+    padding-right: 0px;
+}
+button.cancle_contact_person01.btn.btn-secondary {
+    margin-left: -24px;
+}

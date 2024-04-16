@@ -1,0 +1,180 @@
+i.mdi.mdi-send.send_icons {
+    padding-left: 6px;
+}
+button.create_comments.btn.btn-primary {
+    // margin-top: 28px;
+    // border-radius: 50px;
+    /* width: 40px; */
+    // padding-left: 16px;
+    // padding-right: 16px;
+    font-size: 12px;
+}
+.table-rep-plugin {
+    // border: 1px solid #b9b5b5;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 350px;
+}
+span.comment_date {
+    margin-left: 14px;
+    font-size: 12px;
+}
+button.create_Cancel.btn.btn-secondary {
+    margin-left: 10px;
+    font-size: 12px;
+}
+label.form-label.form-label {
+    // font-size: 11px;
+    font-size: 14px;
+}
+h4.card-title {
+    font-size: 12px;
+}
+.chat-conversation .chat-avatar img {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50%;
+}
+.chat-conversation .conversation-list .ctext-wrap .conversation-name {
+    font-weight: 600;
+    margin-bottom: 7px;
+    font-size: 14px !important;
+    font-family: sans-serif;
+}
+.comment_content_dummy {
+    font-size: 14px;
+    /* font-family: sans-serif; */
+}
+.font-size-18 {
+    font-size: 15px !important;
+}
+button.btn.btn-link.load_more {
+    /* text-align: center; */
+    margin-left: 40%;
+}
+button.btn.btn-link.load_more {
+    /* text-align: center; */
+    margin-left: 40%;
+    color: gray;
+    border: 1px solid #f5eaea;
+}
+
+// start Activity css 
+.table-bordered > :not(caption) > * {
+    font-size: 13px !important;
+    border-width: var(--bs-border-width) 0;
+}
+button.EditActivity_Cancel.btn.btn-secondary {
+    margin-left: 20px;
+}
+h4.card-title.Follow_Up {
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: gray;
+}
+
+button.inquiry_Cancel.ml-10.btn.btn-secondary {
+    margin-left: 20px;
+}
+// button.btn.btn-secondary {
+//     background-color: #5664d2 !important;
+//     margin-bottom: 20px;
+//     width: 100px;
+//     height: 40px;
+//     float: right;
+//     font-size: 16px;
+//     // flex: right;
+//     /* position: absolute; */
+//     /* top: -37px; */
+// }
+
+button.Inquiry_button.btn.btn-primary {
+    float: right;
+    margin-bottom: 20px;
+}
+button.contact_person_Add_button.btn.btn-primary {
+    margin-top: 28px;
+}
+button.contact_person_delete_button.btn.btn-secondary {
+    margin-top: 28px;
+}
+button.cancle_contact_person.btn.btn-secondary {
+    margin-left: -14px;
+}
+td.text-center.cotactPersonLists {
+    /* margin-left: 61px; */
+    padding-left: 500px;
+}
+button.Expensesactivity.btn.btn-primary {
+    font-size: 12px;
+    border-radius: 20px;
+}
+.react-datepicker {
+    width: 328px;
+}
+
+//new
+ .nav-justified .nav-item:has(.active) + li .step-number, .nav-justified .nav-item:has(.active) + li + li .step-number, .nav-justified .nav-item:has(.active) + li + li+ li .step-number, .nav-justified .nav-item:has(.active) + li + li+ li + li .step-number {
+    background: #fff !important;
+    color: #5664d2 !important;
+}
+
+.nav-justified .nav-item .step-number {
+    background: #5664d2 !important;
+    color: #fff !important;
+}
+// .Add_more_Contact_button{
+//     text-align: center;
+//     float: none;
+//     background: #f9f9f9;
+//     color: #5664d2;
+//     font-size: 26px;
+//     font-weight: 800;
+//     border: 2px dotted #5664d2;
+//     padding: 30px 50px;
+// }
+.Add_more_Contact_button i{
+	display: inline-block;
+    font-size: 30px;
+    border: 2px solid #5664d2;
+    clear: both;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 50px;
+}
+
+button.Add_more_Contact_button.btn.btn-primary {
+    text-align: center;
+    float: none;
+    background: #f9f9f9;
+    color: #5664d2;
+    font-size: 16px;
+    font-weight: 800;
+    border: 2px dotted #5664d2;
+    padding: 6px 6px;
+}
+i.ri-add-fill.align-middle.ms-2 {
+    /* font-size: 18px; */
+    /* width: 20px; */
+    /* height: 20px; */
+    width: 30px;
+    height: 30px;
+    // padding: -12px;
+    font-size: 20px;
+    line-height: 28px;
+}
+.company_radio_btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+p.allow_text_image {
+    font-size: 12px;
+    color: #9b9191;
+    margin-top: 5px;
+}

@@ -1,0 +1,3 @@
+{
+  JSON.stringify(this.state.ActivityGetUpdateData.contact_person_id_encode)
+ }

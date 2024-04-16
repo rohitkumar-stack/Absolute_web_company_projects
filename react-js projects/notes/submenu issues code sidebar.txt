@@ -1,0 +1,36 @@
+
+                          <li>
+                                <Link
+                                to="/#"
+                                className={`has-arrow waves-effect ${isSubMenuOpen ? 'menu-open' : ''}`}
+                                onClick={this.toggleSubMenu}
+                                >
+                                <i className="ri-store-2-line"></i>
+                                <span className="ms-1">{this.props.t('Master')}</span>
+                                </Link>
+                                <ul className={`sub-menu ${isSubMenuOpen ? 'menu-open' : ''}`}>
+                                {/* Your submenu items */}
+                                <li>
+                                <Link to="/#" className="has-arrow waves-effect">
+                                    <i className="ri-store-2-line"></i>
+                                    <span className="ms-1">{this.props.t('Leave Applications')}</span>
+                                </Link>
+                                <ul className="sub-menu">
+                                    <li><Link to="/parasmanierp/contactpersonlist">{this.props.t('Contact Person')}</Link></li>
+                                    <li><Link to="/parasmanierp/customerlist">{this.props.t('Customers')}</Link></li>
+                                
+                                </ul>
+                            </li>
+
+                            <li>
+                                <Link to="/#" className="has-arrow waves-effect">
+                                    <i className="ri-mail-send-line"></i>
+                                    <span className="ms-1">{this.props.t('Marketing Manag')}</span>
+                                </Link>
+                                <ul className="sub-menu">
+                                    <li><Link to="/parasmanierp/industrialtypelist">{this.props.t('Industrial Type')}</Link></li>
+                                    <li><Link to="/parasmanierp/ownershiplist">{this.props.t('Ownership')}</Link></li>
+                                </ul>
+                            </li>
+                                </ul>
+                            </li>

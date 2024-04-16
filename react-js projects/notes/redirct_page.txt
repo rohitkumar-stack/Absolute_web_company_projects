@@ -1,0 +1,1 @@
+https://staging.accounts.builder.ai/oauth/authorize/?client_id=application-client-id&redirect_uri=https%3A%2F%2Fmeet.builder.ai%2F&response_type=code&scope=oauth2_uids+openid&state=3fc888f60a2d445c8435b8ffe571c540&code_challenge=6SocZxA4mFb-54ouxMfgfIZVQOjyHFC23GzipJAFGT0&code_challenge_method=S256&response_mode=query
